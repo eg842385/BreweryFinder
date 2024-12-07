@@ -1,4 +1,4 @@
-BreweryFinder
+# BreweryFinder
 BreweryFinder is a web application designed to help users discover, view, and manage breweries and beers. Built with Vue.js, it offers a responsive and intuitive interface to ensure seamless user experience across devices.
 
 Features
