@@ -1,5 +1,5 @@
-# BreweryFinder
-BreweryFinder is a web application designed to help users discover, view, and manage breweries and beers. Built with Vue.js, it offers a responsive and intuitive interface to ensure seamless user experience across devices.
+# Hop To It: The Tap Navigator
+The Tap Navigator is a web application designed to help users discover, view, and manage breweries and beers. Built with Vue.js, it offers a responsive and intuitive interface to ensure seamless user experience across devices.
 
 Features
 - Responsive Interface: The design is user-friendly and adapts to different screen sizes for a seamless experience.
