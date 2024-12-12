@@ -1,7 +1,6 @@
 <template>
-    <div>
-        <h2>Average Rating: {{ averageRating }}</h2>
-        <h2>Reviews</h2>
+    <div class="container">
+        <h2 class="avg">Average Rating: {{ averageRating }}</h2>
         <ul>
             <li v-for="r in reviews" :key="r.reviewId">
                 <div>
@@ -65,8 +64,41 @@ export default {
     }
 }
 </script>
-<style>
+<style scoped>
+.avg{
+    display: flex;
+    font-size: 30px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;  
+    background-color: rgba(141, 141, 141, 0.5);
+    width: fit-content;
+    justify-self: center;
+    border: 1px solid black;
+    
+}
+
+h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
 ul li {
     list-style: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
 }
+li {
+    margin: 10px;
+}
+img {
+    height: 2rem;
+}
+li p, h4 {
+    font-size: 20px;
+}
+
 </style>
